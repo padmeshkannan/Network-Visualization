@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95B9C7B5-6FDF-443C-A689-7EB4BC8B55CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetworkVisualization_Visualization</RootNamespace>
+    <AssemblyName>NetworkVisualization</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CiscoVisualizationValues">
+      <HintPath>bin\CiscoVisualizationValues.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft.NET\ADOMD.NET\90\Microsoft.AnalysisServices.AdomdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ProcessVisualizeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProjectUserControl11\ProcessVisualizeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.0.9.41461, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2.Srv_Mgmt_AppLogEventsModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.Srv_Mgmt_AppLogEventsModule.designer.cs">
+      <DependentUpon>2.Srv_Mgmt_AppLogEventsModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.Functional Areas_ReadWriteStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.Functional Areas_ReadWriteStatus.Designer.cs">
+      <DependentUpon>5.Functional Areas_ReadWriteStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4.Management_Areas_ServerLevelDataInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.Management_Areas_ServerLevelDataInformation.Designer.cs">
+      <DependentUpon>4.Management_Areas_ServerLevelDataInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3.Business_mgmt_ServerLevelInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.Business_mgmt_ServerLevelInformation.Designer.cs">
+      <DependentUpon>3.Business_mgmt_ServerLevelInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="6.SecurityEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6.SecurityEvents.Designer.cs">
+      <DependentUpon>6.SecurityEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.Nw_Mgmt_UserContexts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.Nw_Mgmt_UserContexts.designer.cs">
+      <DependentUpon>1.Nw_Mgmt_UserContexts.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="2.Srv_Mgmt_AppLogEventsModule.resx">
+      <DependentUpon>2.Srv_Mgmt_AppLogEventsModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.Functional Areas_ReadWriteStatus.resx">
+      <DependentUpon>5.Functional Areas_ReadWriteStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.Management_Areas_ServerLevelDataInformation.resx">
+      <DependentUpon>4.Management_Areas_ServerLevelDataInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.Business_mgmt_ServerLevelInformation.resx">
+      <DependentUpon>3.Business_mgmt_ServerLevelInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="6.SecurityEvents.resx">
+      <DependentUpon>6.SecurityEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1.Nw_Mgmt_UserContexts.resx">
+      <DependentUpon>1.Nw_Mgmt_UserContexts.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ObjectAccess\ObjectAccess.csproj">
+      <Project>{10B7C563-AB72-4253-8A07-9CC4CA243C35}</Project>
+      <Name>ObjectAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSAdomdClientSCLib">
+      <Guid>{BC8959CC-1B70-4CF9-AE20-5733741B0021}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecondPage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecondPage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecondPage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FirstPage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThirdPage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fourth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fourth1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FourthPage1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

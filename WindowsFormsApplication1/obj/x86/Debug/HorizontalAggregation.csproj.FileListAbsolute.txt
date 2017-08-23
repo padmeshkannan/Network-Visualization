@@ -1,0 +1,39 @@
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\ObjectAccess.dll
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\ProjectUserControl.dll
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\ObjectAccess.pdb
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\bin\Debug\ProjectUserControl.pdb
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.CaseCheckPivoting.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.CubeDataFetch.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FinalMDXDataFetch.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.NewUserForm.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.PerformanceEvaluation.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.PivotTransposition.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.SPJTransposition.resources
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\Interop.MSAdomdClientSCLib.dll
+C:\FinalYear projects\IEEE Project\2010\Horizontal Aggregation\WindowsFormsApplication1\obj\x86\Debug\HorizontalAggregation.csproj.ResolveComReference.cache
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\Interop.MSAdomdClientSCLib.dll
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\HorizontalAggregation.csproj.ResolveComReference.cache
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.NewUserForm.resources
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\ObjectAccess.dll
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\ProjectUserControl.dll
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\ObjectAccess.pdb
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\bin\Debug\ProjectUserControl.pdb
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\FinalYear projects\2012Projects\Network Visualization\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Services.resources
